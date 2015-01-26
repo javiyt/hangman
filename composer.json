@@ -1,0 +1,23 @@
+{
+    "name": "javiyt/hangman",
+    "description": "API to play hangman game",
+    "require": {
+        "slim/slim": "~2.5"
+    },
+    "require-dev": {
+        "phpspec/phpspec": "~2.1"
+    },
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "javiyt",
+            "email": "me@javi.yt"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Hangman\\": "src/Hangman"
+        }
+    }
+}
